@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Panier | Hôtel Cop, Paris</title>
+    <meta name="description" content="Bienvenue à l'Hôtel Cop ******, le sumumm du Luxe Parisien, venez découvrir notre Restaurant *** Michelin & vous détendre dans notre Spa.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/logos/ico.png" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mon-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<!-- BODY -->
+
+<body>
+
+    <!-- header avec barre de navigation -->
+    <header>
+        <nav class="navbar navbar-expand-xl  shadow fixed-top navigation">
+            <a class="navbar-brand" href="index.html"><img src="img/logos/logo.png" alt="logo Hotel Corp"
+                    class="logo-header"></a>
+            <button class="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurant.html">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="spa.html">Spa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="chambres.html" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Chambres</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="chambres.html">Voir toutes les gammes</a>
+                            <a class="dropdown-item" href="classique.html">Chambre Classique</a>
+                            <a class="dropdown-item" href="confort.html">Chambre Confort</a>
+                            <a class="dropdown-item" href="deluxe.html">Chambre Deluxe</a>
+                            <a class="dropdown-item" href="suite.html">Nos Suites</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="a-propos.html" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Autre</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="a-propos.html">Qui sommes nous</a>
+                            <a class="dropdown-item" href="acces.html">Accès</a>
+                            <a class="dropdown-item" href="contact.html">Contactez-nous</a>
+                            <a class="dropdown-item" href="evenements.html">Evénements</a>
+                            <a class="dropdown-item" href="presse.html">Presse</a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- bouton de resas renvoyant vers la page resas -->
+                <form class="form-inline my-2 my-lg-0">
+                    <a class=" btn btn-dark resas bouton-resas" href="reservations.html" role="button">Réserver</a>
+                </form>
+                <!--Fin bouton de resas renvoyant vers la page resas -->
+                <!-- bouton panier -->
+                <ul class="navbar-nav text-md-right">
+                    <li class="nav-item preNavBar">
+                        <a href="panier.html "><i class="fas fa-shopping-basket"></i></a>
+                    </li>
+                    <!-- fin bouton panier -->
+                    <!-- choix de la langue -->
+                    <li class="nav-item preNavBar"><a href="#">FR </a>|<a href="#"> EN</a>
+                    </li>
+                    <!-- fin choix de la langue -->
+                </ul>
+                <!-- bouton de recherche -->
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2 my-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <div class="input-group-append">
+                        <a href="#">
+                        <span class="loupe input-group-text bg-dark text-light"><i class="fas fa-search"></i></span>
+                        </a>
+                    </div>
+                </form>
+                <!--Fin bouton de recherche -->
+            </div>
+        </nav>
+    </header>
+    <!--Fin header avec barre de navigation -->
+
+
+    <main class="container-fluid contact">
+        <!-- Image d'acceuil-->
+        <div class="row">
+            <div class="col">
+                <img src="img/panier/main.jpg" alt="">
+            </div>
+        </div>
+        <!--Fin Image d'acceuil-->
+        <div class="black">
+            <div class="row container intro">
+                <div class="col-12">
+                    <hr class="traitIntro">
+                    <br>
+                    <h3>Mon Panier</h3>
+                    <br>
+                    <hr class="traitFin">
+                </div>
+            </div>
+        </div>
+        <div class="gold">
+            <div class="row container intro">
+                <div class="col-12">
+                    <div class="card text-center-xs col-md-12 p-3 mt-4 shadow">
+                        <div class="row ">
+                            <div class="col-md-5">
+                                <img class="w-100" src="img/chambres/suite/suite-chambre2.jpg" alt="suite">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-block">
+                                    <h5 class="card-title">Suite</h5>
+                                    <p class="card-text text-center pDark">Du 08/06/2019 au 14/06/2019<br>
+                                        Montant : <strong>38 400€</strong><br> Pour 2 personnes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card text-center shadow">
+                        <div class="card-header black">
+                            <h6>PAIEMENT</h6>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Valider mon panier</h5>
+                            <p class="card-text">
+                                <div class="row panier">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <form method="POST" class="panier">
+                                                <hr>
+                                                <div class="form-check form-check-inline radioCb">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <img src="img/logos/cb.png" alt="cb" class="paiementcb">
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                    <img src="img/logos/visa.png" alt="cb" class="paiementcb">
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="inlineRadioOptions" value="option3">
+                                                    <img src="img/logos/mastercard.png" alt="cb" class="paiementcb">
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="inlineRadioOptions" value="option3">
+                                                    <img src="img/logos/amex.png" alt="cb" class="paiementcb">
+                                                </div>
+                                                <hr>
+                                                <input type="text" id="nomCarte" class="col-md-12"
+                                                    placeholder="Nom de la carte*" required>
+                                                <input type="text" pattern="[0-9]{16}" id="numeroCarte"
+                                                    class="col-md-12" placeholder="Numero de la carte*" required>
+                                                <div class="erreurCarte"></div>
+                                                <label>Mois</label>
+                                                <select name="mounth" id="mounth">
+                                                    <option>01</option>
+                                                    <option>02</option>
+                                                    <option>03</option>
+                                                    <option>04</option>
+                                                    <option>05</option>
+                                                    <option>06</option>
+                                                    <option>07</option>
+                                                    <option>08</option>
+                                                    <option>09</option>
+                                                    <option>10</option>
+                                                    <option>11</option>
+                                                    <option>12</option>
+                                                </select>
+                                                <label>Année</label>
+                                                <select name="year" id="year">
+                                                    <option>2019</option>
+                                                    <option>2020</option>
+                                                    <option>2021</option>
+                                                    <option>2022</option>
+                                                    <option>2023</option>
+                                                    <option>2024</option>
+                                                    <option>2025</option>
+                                                </select>
+                                                <label for="crypto">Cryptogramme</label>
+                                                <input type="text" id="crypto" placeholder="ex: 123*">
+                                                <div class="erreurCrypto"></div>
+                                                <hr>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label>ACCEPTEZ LES <a href="cgv.html" id="cgv">Conditions Générales
+                                                            de Ventes</a></label>
+                                                    <label class="form-check-label" for="exampleCheck1"></label>
+                                                </div>
+                                                <hr>
+                                                <a href="#" class="btn btn-dark" id="boutonpanier">Valider</a>
+                                                <hr>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            &#128272; paiment sécurisé
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Image de fin-->
+            <div class="row">
+                <div class="col">
+                    <img src="img/panier/footer.jpg" alt="">
+                </div>
+            </div>
+            <!--Fin Image de fin-->
+        </div>
+
+
+        <!-- Footer -->
+        <div class="black">
+            <footer class="page-footer font-small stylish-color-dark pt-4">
+
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="#">
+                                <img src="img/logos/logo.png" alt="logo Hotel Corp" class="logo-footer mt-4">
+                            </a>
+                        </div>
+                        <div class="col-md-4 mx-auto">
+                            <!--Adresse Hôtel-->
+                            <h5 class="mt-3 mb-4">Hôtel Cop Paris</h5>
+                            <p class="p2">1 Avenue Montaigne<br>75008 Paris France <br>Tél: 01 24 35 67 89</p>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none">
+                        <div class="col-md-2 mx-auto">
+
+                            <!-- Link Hôtel -->
+                            <h5 class="mt-3 mb-4">L'hôtel</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="a-propos.html">Qui sommes nous</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contactez-nous</a>
+                                </li>
+                                <li>
+                                    <a href="acces.html">Accès</a>
+                                </li>
+                                <li>
+                                    <a href="avis.html">Avis</a>
+                                </li>
+                            </ul>
+                            <!--Fin Link Hôtel -->
+                        </div>
+
+                        <hr class="clearfix w-100 d-md-none">
+                        <div class="col-md-2 mx-auto">
+
+                            <!-- Liens Presse -->
+                            <h5 class="mt-3 mb-4">Presse</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="actualites.html">Actualités</a>
+                                </li>
+                                <li>
+                                    <a href="evenements.html">Evénements</a>
+                                </li>
+                                <li>
+                                    <a href="presse.html">Presse</a>
+                                </li>
+                            </ul>
+                            <!--Fin Liens Presse -->
+                        </div>
+
+
+                        <div class="col-md-2 mx-auto">
+
+                            <!-- Liens Divers -->
+                            <h5 class="mt-3 mb-4">Liens divers</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="mentions-legales.html">Mentions légales</a>
+                                </li>
+                                <li>
+                                    <a href="cgv.html">CGV</a>
+                                </li>
+                                <li>
+                                    <a href="plan-du-site.html">Plan du site</a>
+                                </li>
+                                <li>
+                                    <a href="recrutement.html">Carrière</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="print"><i class="fas fa-print"></i></a>
+                                </li>
+                            </ul>
+                            <!--Fin Liens Divers -->
+                        </div>
+                    </div>
+                </div>
+                <!--Fin Footer Links -->
+
+                <!--Newsletter Bouton-->
+                <hr class="traitFooter">
+                <div class="row">
+                    <div class="col-3 mx-auto">
+                        <form method="GET">
+                            <div class="form-group">
+                                <div class="row">
+                                    <label for="emailNewsLetter" class="text-center" style="width: 100%;">S'inscrire
+                                        à la Newsletter</label>
+                                    <input type="email" class="col-md-9 text-center bg-light" id="emailNewsLetter"
+                                        placeholder="Votre Email*" required>
+                                    <input type="submit" id="submitNews" class="col-md-3 btn btn-dark resas">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--Fin Newsletter Bouton-->
+
+                <hr>
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-fb mx-1">
+                            <i class="facebook"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-tw mx-1">
+                            <i class="twitter"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-gplus mx-1">
+                            <i class="instagram"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-li mx-1">
+                            <i class="youtube"> </i>
+                        </a>
+                    </li>
+                </ul>
+                <!--Fin Social buttons -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2019 Copyright : Max & Nag
+                </div>
+                <!-- Copyright -->
+                <!--  -->
+                <div class="footer-copyright faux text-center py-3">Ce site n'a aucun but commercial, il est réalisé
+                    dans le cadre d'un atelier pédagogique d'intégration web au sein de l'organisme de formation IFOCOP.
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!--Fin Footer -->
+        </div>
+    </main>
+    <!--Fin MAIN -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mon-js.js"></script>
+
+</body>
+<!--Fin BODY -->
+
+</html>

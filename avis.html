@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Les Avis | Hôtel Cop, Paris</title>
+    <meta name="description" content="Bienvenue à l'Hôtel Cop ******, le sumumm du Luxe Parisien, venez découvrir notre Restaurant *** Michelin & vous détendre dans notre Spa.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/logos/ico.png" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mon-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<!-- BODY -->
+
+<body>
+
+    <!-- header avec barre de navigation -->
+    <header>
+        <nav class="navbar navbar-expand-xl  shadow fixed-top navigation">
+            <a class="navbar-brand" href="index.html"><img src="img/logos/logo.png" alt="logo Hotel Corp"
+                    class="logo-header"></a>
+            <button class="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurant.html">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="spa.html">Spa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="chambres.html" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Chambres</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="chambres.html">Voir toutes les gammes</a>
+                            <a class="dropdown-item" href="classique.html">Chambre Classique</a>
+                            <a class="dropdown-item" href="confort.html">Chambre Confort</a>
+                            <a class="dropdown-item" href="deluxe.html">Chambre Deluxe</a>
+                            <a class="dropdown-item" href="suite.html">Nos Suites</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="a-propos.html" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Autre</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="a-propos.html">Qui sommes nous</a>
+                            <a class="dropdown-item" href="acces.html">Accès</a>
+                            <a class="dropdown-item" href="contact.html">Contactez-nous</a>
+                            <a class="dropdown-item" href="evenements.html">Evénements</a>
+                            <a class="dropdown-item" href="presse.html">Presse</a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- bouton de resas renvoyant vers la page resas -->
+                <form class="form-inline my-2 my-lg-0">
+                    <a class=" btn btn-dark resas bouton-resas" href="reservations.html" role="button">Réserver</a>
+                </form>
+                <!--Fin bouton de resas renvoyant vers la page resas -->
+                <!-- bouton panier -->
+                <ul class="navbar-nav text-md-right">
+                    <li class="nav-item preNavBar">
+                        <a href="panier.html "><i class="fas fa-shopping-basket"></i></a>
+                    </li>
+                    <!-- fin bouton panier -->
+                    <!-- choix de la langue -->
+                    <li class="nav-item preNavBar"><a href="#">FR </a>|<a href="#"> EN</a>
+                    </li>
+                    <!-- fin choix de la langue -->
+                </ul>
+                <!-- bouton de recherche -->
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2 my-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <div class="input-group-append">
+                        <a href="#">
+                        <span class="loupe input-group-text bg-dark text-light"><i class="fas fa-search"></i></span>
+                        </a>
+                    </div>
+                </form>
+                <!--Fin bouton de recherche -->
+            </div>
+        </nav>
+    </header>
+    <!--Fin header avec barre de navigation -->
+
+
+    <main class="container-fluid contact">
+        <!-- Image d'acceuil-->
+        <div class="row">
+            <div class="col">
+                <img src="img/avis/main.jpg" alt="">
+            </div>
+        </div>
+        <!--Fin Image d'acceuil-->
+        <div class="black">
+            <div class="row container intro">
+                <div class="col-12 my-3">
+                    <p>
+                        <hr class="traitIntro">
+                        <br>
+                        <h2 class="it">Nos Clients en parlent pour nous</h2>
+                        <h5 class="text-center">Hôtel Cop, Paris</h5>
+                        <br>
+                        <hr class="traitFin">
+                    </p>
+                </div>
+            </div>
+            <!-- onglets -->
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active col-3" id="nav-hotel-tab" data-toggle="tab" href="#nav-hotel"
+                        role="tab" aria-selected="true">
+                        L'hotel</a>
+                    <a class="nav-item nav-link col-3" id="nav-restaurant-tab" data-toggle="tab" href="#nav-resto"
+                        role="tab" aria-selected="false">Le Five</a>
+                    <a class="nav-item nav-link col-3" id="nav-spa-tab" data-toggle="tab" href="#nav-spa" role="tab"
+                        aria-selected="false">
+                        le spa</a>
+                    <a class="nav-item nav-link col-3" id="nav-commentaire-tab" data-toggle="tab" href="#nav-com"
+                        role="tab" aria-selected="false">laissez votre avis</a>
+                </div>
+            </nav>
+        </div>
+        <!-- hotel -->
+        <div class="tab-content gold" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-hotel" role="tabpanel" aria-labelledby="nav-hotel-tab">
+                <!-- faire une classe container -->
+                <div class="container intro">
+                    <!-- faire une classe row à la place de card-deck -->
+                    <div class="row">
+                        <!-- faire des classes col -->
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/1.jpg" alt="Card image cap">
+                            <p class="it pseudo">Numa-Luxe</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">La perfection à l’état pur</h5>
+                                <p class="card-text">Un endroit très bien placé, un hôtel ravissant, des restaurants et
+                                    un bar luxueux !! Une expérience exceptionnelle avec un personnel de qualité avec
+                                    beaucoup d'attentions. A recommander absolument !!!</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/2.jpg" alt="Card image cap">
+                            <p class="it pseudo">Maxou</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Parfait</h5>
+                                <p class="card-text">Tout a été parfait, de l'arrivée au départ.Court séjour après un
+                                    événement important, nous avons été reçu avec soin et prévenance. Super équipe. La
+                                    chambre était très spacieuse, impeccable, tout ce dont on peut rêver.</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/3.jpg" alt="Card image cap">
+                            <p class="it pseudo">Nag</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Exceptionnel</h5>
+                                <p class="card-text">Un vrai 5 étoiles avec un service sur mesure de très haut
+                                    niveau.Mention spéciale au restaurant le 5 et au massage dans le spa. Un
+                                    anniversaire inoubliable pour mon épouse.. Couverte de cadeaux et d attention</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/4.2.jpg" alt="Card image cap">
+                            <p class="it pseudo">Alyson-Gucci</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Magnifique</h5>
+                                <p class="card-text">Harmonie entre passé et design contemporain; un lieux superbe, Le
+                                    raffinement du style art-déco,tapis somptueux du XVIII ème.Tout est parfait dans une
+                                    sobriété pimpante: la décoration de Noël dans Le hall d'accueil,la décoration
+                                    florale,les luminaires...</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/4.jpg" alt="Card image cap">
+                            <p class="it pseudo">Thomas-Dupont</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Incroyable!</h5>
+                                <p class="card-text">Une certaine vision du luxe. C’est beau! C’est très beau! Les
+                                    finitions de cet hotel sont jusque dans le plus petit détails d’un Luxe total!
+                                    Halls, restaurants, chambres, spa tout je dis bien tout est somptueux!</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/5.jpg" alt="Card image cap">
+                            <p class="it pseudo">Jean124</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Quelle belle maison</h5>
+                                <p class="card-text">Que dire de cette institution parisienne ? Le confort des lits, le
+                                    silence absolu des chambres au cœur de Paris , les pivoines et les orchidées qui
+                                    rythment les salons, l’onctuosité des œufs brouillés .... Tout y est maîtrisé .</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- restaurant -->
+            <div class="tab-pane fade" id="nav-resto" role="tabpanel" aria-labelledby="nav-restaurant-tab">
+                <div class="container intro">
+                    <div class="row">
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/6.jpg" alt="Card image cap">
+                            <p class="it pseudo">SoSo45</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Un Délice</h5>
+                                <p class="card-text">C'est un moment magique .Tout y est parfait : les plats ,les
+                                    vins,le personnel et la visite de la cuisine réalisée à ma demande .Tout y reluit
+                                    c'est magnifique .Sans parler du chariot de gourmandises fabuleuses . N'hésiter pas
+                                    pour un moment bien agréable.</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/7.jpg" alt="Card image cap">
+                            <p class="it pseudo">Micky-58</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Féerique</h5>
+                                <p class="card-text">Une pause gourmande , un service impeccable, un lieu vraiment
+                                    magique.
+                                    Le chocolat chaud est juste un délice,concernant les pattiseries succulentes.
+                                    Un vrai moment de bonheur et d'évasion après une longue journée.</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/8.jpg" alt="Card image cap">
+                            <p class="it pseudo">Freddy-Vincent</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">tea time de 15h</h5>
+                                <p class="card-text">délicieux de sucré et salé, surtout le chocolat chaud, nous sommes
+                                    bien accueilli par le personnel au top. le cadre est magnifique, et du piano de
+                                    belle musique. le lieu est un rêve de conte fée......</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/9.jpg" alt="Card image cap">
+                            <p class="it pseudo">Big-Dan</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">A la hauteur de sa réputation</h5>
+                                <p class="card-text">Deuxième visite dans cet établissement et encore une fois, aucun
+                                    faux pas. Pour cette deuxième fois, nous avons réservé le soir; une autre ambiance
+                                    et une autre atmosphère que pour le déjeuner. Les prix sont au Rv, mais la qualité
+                                    est là.</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/10.jpg" alt="Card image cap">
+                            <p class="it pseudo">Simon-WIX</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Paradis visuel et gustatif</h5>
+                                <p class="card-text">De visite à paris pour un week end, nous voulions marquer le coup
+                                    en déjeunant dans LE plus beau palace parisien. On ne peut être préparé à un tel
+                                    spectacle visuel tant le lieu en lui même est magnifique et tant les compositions
+                                    florales, d'une finesse folle, sont à la hauteur des attentes.</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/11.jpg" alt="Card image cap">
+                            <p class="it pseudo">Ed-Python</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Un dîner juste parfait</h5>
+                                <p class="card-text">Nous étions 10, contrairement à certains d’autres ***, nous avons
+                                    pu dîner dans la salle principale.
+                                    Cet établissement est magnifique et le service et très juste, ni trop ni pas assez.
+                                    Le mets sont excellent et la cave et superbe.
+                                    C’est sans conteste parmi les *** que nous connaissons l’un des meilleurs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- spa -->
+            <div class="tab-pane fade" id="nav-spa" role="tabpanel" aria-labelledby="nav-spa-tab">
+                <div class="container intro">
+                    <div class="row">
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/12.jpg" alt="Card image cap">
+                            <p class="it pseudo">Aurelie-93</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Massage trés agréable</h5>
+                                <p class="card-text">Accueil agréable et une bonne écoute lors du massage. Gommage
+                                    laissant une peau toute douce et un massage très éfficace en terme de détente.
+                                    L'ambiance est reposante</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/13.jpg" alt="Card image cap">
+                            <p class="it pseudo">Mich-Mich</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Quel luxe !</h5>
+                                <p class="card-text">L'hôtel est sublime à la hauteur de sa légende, la rénovation est
+                                    magnifique et l'institut Dior ne dépareille pas! Ai fait un soin des pieds et
+                                    c'était divin' j'ai tout oubliė ! Difficile de s'extraire de ce cocon luxueux pour
+                                    retrouver la pluie parisienne!
+                                    Hâte d'y retourner!</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/14.jpg" alt="Card image cap">
+                            <p class="it pseudo">Geof-de-Montmimi</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Belle adresse</h5>
+                                <p class="card-text">Moment de détente très agréable en duo dans un endroit zen et chic
+                                    ... jaccuzzi suivi d’un massage relaxant Top . Une première pour nous et
+                                    certainement pas la dernière.</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/15.jpg" alt="Card image cap">
+                            <p class="it pseudo">Patricia-56</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Spa très agréable</h5>
+                                <p class="card-text">Après midi avec une amie au spa Dior du Cop .... Très bon accueil,
+                                    un massage professionnel et agréable, un soin des pieds parfait, un salon de repos
+                                    divin ! Le personnel est au petit soin et compétant. Les infrastructures avec hammam
+                                    et sauna parfaites. Il manque seulement…</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/16.jpg" alt="Card image cap">
+                            <p class="it pseudo">Plissken2</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Superbe Spa</h5>
+                                <p class="card-text">Un spa à la hauteur de sa réputation. Un vrai havre de paix en
+                                    plein coeur de Paris. Bref un rêve...</p>
+                            </div>
+                        </div>
+                        <div class="card cardAvis col-sm-6 col-md-4 text-center">
+                            <img class="card-img-top" src="img/avis/17.jpg" alt="Card image cap">
+                            <p class="it pseudo">Bryan-Spoil</p>
+                            <div class="card-body card-body-avis">
+                                <img src="img/logos/cinq-etoiles.png" alt="étoiles">
+                                <h5 class="card-title">Jolie parenthèse</h5>
+                                <p class="card-text">Le Spa by Dior de l'Hotel Cop est merveilleux. Très spacieux. Le
+                                    temps est comme suspendu dans cet endroit de toute beauté! Un grand merci</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- commentaires -->
+            <div class="tab-pane fade" id="nav-com" role="tabpanel" aria-labelledby="nav-commentaire-tab">
+                <div class="row container intro">
+                    <div class="col-12">
+                        <form method="GET">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Votre Pseudo</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" required>
+                            </div>
+                            <label for="votrePhoto">Votre Photo</label>
+                            <div class="input-group mb-3">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input">
+                                    <label class="custom-file-label">Téléchargez votre
+                                        photo</label>
+                                </div>
+                                <div class="input-group-append">
+                                    <span class="input-group-text">Télécharger</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Catégorie</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>L'Hôtel</option>
+                                    <option>Les Chambres / Suites</option>
+                                    <option>Le Spa</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Donnez une note sur 5</label>
+                                <select multiple class="form-control" id="exampleFormControlSelect2" required>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Donnez un titre à votre commentaire</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Votre commentaire</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-light boutonAvis">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- fin onglets -->
+
+        <!-- Image d'acceuil-->
+        <div class="row">
+            <div class="col">
+                <img src="img/avis/footer.jpg" alt="">
+            </div>
+        </div>
+        <!--Fin Image d'acceuil-->
+
+        <!-- Footer -->
+        <div class="black">
+            <footer class="page-footer font-small stylish-color-dark pt-4">
+
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="#">
+                                <img src="img/logos/logo.png" alt="logo Hotel Corp" class="logo-footer mt-4">
+                            </a>
+                        </div>
+                        <div class="col-md-4 mx-auto">
+                            <!--Adresse Hôtel-->
+                            <h5 class="mt-3 mb-4">Hôtel Cop Paris</h5>
+                            <p class="p2">1 Avenue Montaigne<br>75008 Paris France <br>Tél: 01 24 35 67 89</p>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none">
+                        <div class="col-md-2 mx-auto">
+
+                            <!-- Link Hôtel -->
+                            <h5 class="mt-3 mb-4">L'hôtel</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="a-propos.html">Qui sommes nous</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contactez-nous</a>
+                                </li>
+                                <li>
+                                    <a href="acces.html">Accès</a>
+                                </li>
+                                <li>
+                                    <a href="avis.html">Avis</a>
+                                </li>
+                            </ul>
+                            <!--Fin Link Hôtel -->
+                        </div>
+
+                        <hr class="clearfix w-100 d-md-none">
+                        <div class="col-md-2 mx-auto">
+
+                            <!-- Liens Presse -->
+                            <h5 class="mt-3 mb-4">Presse</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="actualites.html">Actualités</a>
+                                </li>
+                                <li>
+                                    <a href="evenements.html">Evénements</a>
+                                </li>
+                                <li>
+                                    <a href="presse.html">Presse</a>
+                                </li>
+                            </ul>
+                            <!--Fin Liens Presse -->
+                        </div>
+
+
+                        <div class="col-md-2 mx-auto">
+
+                            <!-- Liens Divers -->
+                            <h5 class="mt-3 mb-4">Liens divers</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="mentions-legales.html">Mentions légales</a>
+                                </li>
+                                <li>
+                                    <a href="cgv.html">CGV</a>
+                                </li>
+                                <li>
+                                    <a href="plan-du-site.html">Plan du site</a>
+                                </li>
+                                <li>
+                                    <a href="recrutement.html">Carrière</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="print"><i class="fas fa-print"></i></a>
+                                </li>
+                            </ul>
+                            <!--Fin Liens Divers -->
+                        </div>
+                    </div>
+                </div>
+                <!--Fin Footer Links -->
+
+                <!--Newsletter Bouton-->
+                <hr class="traitFooter">
+                <div class="row">
+                    <div class="col-3 mx-auto">
+                        <form method="GET">
+                            <div class="form-group">
+                                <div class="row">
+                                    <label for="emailNewsLetter" class="text-center" style="width: 100%;">S'inscrire
+                                        à la Newsletter</label>
+                                    <input type="email" class="col-md-9 text-center bg-light" id="emailNewsLetter"
+                                        placeholder="Votre Email*" required>
+                                    <input type="submit" id="submitNews" class="col-md-3 btn btn-dark resas">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--Fin Newsletter Bouton-->
+
+                <hr>
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-fb mx-1">
+                            <i class="facebook"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-tw mx-1">
+                            <i class="twitter"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-gplus mx-1">
+                            <i class="instagram"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-li mx-1">
+                            <i class="youtube"> </i>
+                        </a>
+                    </li>
+                </ul>
+                <!--Fin Social buttons -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2019 Copyright : Max & Nag
+                </div>
+                <!-- Copyright -->
+                <!--  -->
+                <div class="footer-copyright faux text-center py-3">Ce site n'a aucun but commercial, il est réalisé
+                    dans le cadre d'un atelier pédagogique d'intégration web au sein de l'organisme de formation IFOCOP.
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!--Fin Footer -->
+        </div>
+    </main>
+    <!--Fin MAIN -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mon-js.js"></script>
+
+
+</body>
+<!--Fin BODY -->
+
+</html>

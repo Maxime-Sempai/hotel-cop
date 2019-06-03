@@ -1,0 +1,867 @@
+/* HOTEL COP */
+
+body {
+    font-family: 'Playfair Display', serif;
+    /* pour ne pas cacher la photo en responsive */
+    margin-top: 88px;
+}
+
+.container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navigation {
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+.logo-header {
+    width: 70px;
+}
+
+.logo-footer {
+    width: 100px;
+}
+
+.resas {
+    border-radius: 0;
+}
+
+.resas2 {
+    border-radius: 0;
+    min-width: 175px;
+}
+
+.btn-light {
+    border-radius: 0;
+}
+
+.bouton-reserver {
+    margin-top: 100px;
+}
+
+#navbarNav {
+    justify-content: space-between;
+}
+
+#navbarNav li {
+    margin-right: 40px;
+}
+
+img {
+    width: 100%;
+}
+
+.preNavBar a {
+    text-decoration: none;
+    color: black;
+}
+
+.preNavBar a:hover {
+    color: #b68735;
+}
+
+.preNavBar {
+    color: black;
+}
+
+
+.navbar-nav a {
+    color: black;
+
+}
+
+.navbar-nav a:hover {
+    color: #D4B983;
+
+}
+
+.navbar-brand {
+    margin-right: 80px;
+}
+
+.navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.loupe{
+    padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+.modal-body h5 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+}
+
+.p2 {
+    text-align: left;
+}
+
+.pDark {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.it {
+    font-style: italic;
+}
+
+.intro {
+    margin: auto;
+    padding: 2em;
+    text-align: justify;
+    color: white;
+}
+.intro2 {
+    margin: auto;
+    text-align: justify;
+    color: white;
+}
+
+.gold {
+    background-color: #b68735;
+    color: white;
+}
+
+.traitIntro {
+    background-color: white;
+    margin-top: 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.traitIntroDore {
+    background-color: #b68735;
+    margin-top: 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.traitFin {
+    background-color: white;
+    margin-top: 2em;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.vignettes {
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+    color: #b68735;
+    margin-bottom: 50px;
+}
+
+.vignette {
+    border-radius: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card-body {
+    min-height: auto;
+}
+
+.card-body h2 {
+    margin-bottom: 20px;
+}
+
+.card-body form {
+    justify-content: center;
+}
+
+.col-5 {
+    max-width: 100%;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.chef {
+    margin-top: 50px;
+    border: 1px solid #b68735;
+}
+
+.chef2 {
+    margin: 0 auto;
+    border: 1px solid #b68735;
+}
+
+.footer {
+    list-style: none;
+}
+
+.text-gold {
+    color: #b68735;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-center-xs {
+    text-align: center;
+}
+
+.twitter {
+    padding: 15px;
+    background-image: url('../img/logos/twitter.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.facebook {
+    padding: 15px;
+    background-image: url('../img/logos/facebook.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+
+}
+
+.instagram {
+    padding: 15px;
+    background-image: url('../img/logos/instagram.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.youtube {
+    padding: 15px;
+    background-image: url('../img/logos/youtube.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.twitterOr {
+    padding: 15px;
+    background-image: url('../img/logos/twitterOr.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.facebookOr {
+    padding: 15px;
+    background-image: url('../img/logos/facebookOr.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 10px;
+
+}
+
+.instagramOr {
+    padding: 15px;
+    background-image: url('../img/logos/instagramOr.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.youtubeOr {
+    padding: 15px;
+    background-image: url('../img/logos/youtubeOr.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.copy {
+    padding-left: 50px;
+}
+
+.picto {
+    text-align: start;
+    margin-bottom: 50px;
+    margin-top: 45px;
+
+}
+
+.footer li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.traitFooter {
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.traitDeFin {
+    border: 1px solid white;
+    margin-bottom: 5em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.copyright {
+    margin: 0;
+    padding-left: 16px;
+}
+
+.texte {
+    font-size: 1em;
+    justify-content: center;
+}
+
+.faux {
+    font-size: 0.6em;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+
+/* classes spéciales accès */
+
+.map {
+    width: 100%;
+    min-height: 600px;
+}
+
+.tel {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.font {
+    font-size: 1.3em;
+}
+
+.traitAcces {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.description {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.traitAcces2 {
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.centrer {
+    margin: auto;
+    padding: 1em;
+    text-align: justify;
+    color: white;
+}
+
+.gold h4 {
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.centrer-start {
+    text-align: left;
+}
+
+
+.card {
+    border-radius: 0;
+    margin: 20px auto;
+}
+
+.card-title {
+    color: #b68735;
+}
+
+.card-text2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/*recrutement*/
+
+.recrutement {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/*classes spéciales événement*/
+
+.col-md-12 iframe {
+
+    width: 100%;
+    height: 300px;
+}
+
+.card-body h3 {
+    color: #b68735;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.form-control {
+    border-radius: 0;
+    padding: 0.500rem 0.30rem;
+
+}
+
+.envoyer {
+    text-align: end;
+}
+
+.recrut {
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+.traitRecrutement {
+    background-color: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*class 07/05/19 NAG*/
+a {
+    text-transform: uppercase;
+}
+
+footer a {
+    text-transform: inherit;
+}
+
+footer h5 {
+    font-size: 1rem;
+}
+
+.gold h3 {
+    text-transform: uppercase;
+}
+
+.modal-body h3 {
+    text-transform: uppercase;
+}
+
+.modal-body h5 {
+    font-size: 3rem;
+}
+
+/*Classes du 07/05/2019 max*/
+
+.largeur {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.largeur-marg {
+    padding: 0;
+}
+
+.margTop {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* classes max footer 07/05/2019 */
+.boutonSub {
+    margin-top: 15px;
+}
+
+.bouton-resas {
+    width: 10em;
+}
+
+/*Classes 9/05/2019 Nag*/
+.move {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 3s ease-in-out;
+    transition: 4s ease-in-out;
+}
+
+:hover .move {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* classes max reservation 08/05/2019*/
+.dateResas {
+    margin-bottom: 20px;
+}
+
+.custom-select {
+    width: 100%;
+}
+
+/* 
+.dateResas input {
+    width: 49.5%;
+    height: 38px;
+}
+*/
+/* classe max avis 11/05/2019*/
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: white;
+    background-color: #b68735;
+    border-color: #b68735;
+    border-radius: 0;
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-item.show .nav-link {
+    text-align: center;
+}
+
+.cardAvis .card-img-top {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 1px solid #000000;
+    width: 130px;
+    height: 130px;
+    margin: 20px auto;
+}
+
+.cardAvis {
+    -webkit-box-shadow: -14px 17px 19px -6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: -14px 17px 19px -6px rgba(0, 0, 0, 0.23);
+    box-shadow: -14px 17px 19px -6px rgba(0, 0, 0, 0.23);
+    color: #000000;
+}
+
+.pseudo {
+    color: black;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.card-body-avis {
+    padding-top: 0;
+}
+
+.card-body-avis img {
+    width: 150px;
+}
+
+.cardAvis h5 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.introAvis {
+    margin: auto;
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    color: white;
+}
+
+.boutonAvis {
+    border-radius: 0;
+}
+
+/* 18/05/19 NAG */
+.vignettes2 {
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+    border: solid 0.5px #b68735;
+    margin-bottom: 20px;
+}
+
+/* Modal modif */
+
+
+.modal-dialog-scrollable .modal-header2,
+.modal-dialog-scrollable .modal-footer {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.modal-header2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #b68735;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.modal-header2 .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+.modal-footer2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #b68735;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+/*FIN 18/05/19 NAG */
+
+/*classe max reservations 15/05/2019 (pour jquery)*/
+.tarifClassic,
+.tarifConfort,
+.tarifDeluxe,
+.tarifSuite {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.5em;
+    margin-right: 40px;
+}
+
+.fontReservation {
+    font-size: 1.5em;
+}
+
+.prixDuSejour {
+    display: none;
+}
+
+/*classe max panier 19/05/2019*/
+
+.panier {
+    justify-content: center;
+    margin: auto;
+    color: black;
+
+}
+
+#cgv a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.panier input {
+    margin-bottom: 15px;
+}
+
+.paiementcb {
+    width: 40px;
+}
+
+.radioCb {
+    margin-bottom: 15px;
+}
+
+#boutonpanier {
+    border-radius: 0;
+    color: white;
+}
+
+/*Fin classe max reservations 15/05/2019 (pour jquery)*/
+
+
+
+/* Media Queries 575px rajouté h2 & .it 11/05/19*/
+
+/* Media Queries // Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+
+    .p2 {
+        text-align: center;
+    }
+
+    /*h3{
+    font-size: 2em;
+}*/
+    h4 {
+        font-size: 1.5em;
+    }
+
+    h5 {
+        font-size: 1.5em;
+        margin-top: 30px;
+    }
+
+
+    /* h3 & .it rajouté 11/05/19 -----------------------------*/
+    h3 {
+        font-size: 2em;
+    }
+
+    .it {
+        font-size: 1.5em;
+    }
+
+    .display-3 {
+        font-size: 3rem;
+    }
+
+}
+
+/*classe avis responsive*/
+@media (min-width: 576px) {
+    .cardAvis {
+        max-width: 240px;
+    }
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 768px) {
+
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .p2 {
+        text-align: left;
+    }
+
+
+    body {
+        margin-top: 0;
+    }
+
+    .contact {
+        margin-top: 87.86px;
+    }
+
+    /*acces*/
+    .acces {
+        margin-top: 114px;
+    }
+
+    .texte {
+        font-size: 1em;
+    }
+
+    .footer li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    footer ul {
+        padding-left: 60px;
+    }
+
+    .map {
+        width: 100%;
+        min-height: 700px;
+    }
+
+    /*evenements*/
+    .col-md-12 iframe {
+
+        width: 100%;
+        height: 900px;
+        margin-bottom: 100px;
+    }
+
+    /*Contact*/
+    .margTop {
+        margin-top: 0;
+    }
+
+    .largeur textarea {
+        min-height: 212px;
+    }
+
+    /* classes max footer 07/05/2019 */
+    .boutonSub {
+        margin: 0px;
+    }
+
+    /*classe avis responsive*/
+    .cardAvis {
+        max-width: 220px;
+    }
+
+
+
+}
+
+/*classe avis responsive*/
+@media (min-width: 992px) {
+    .cardAvis {
+        max-width: 300px;
+    }
+}
+
+/*classe avis responsive*/
+@media (min-width: 1200px) {
+    .cardAvis {
+        max-width: 350px;
+    }
+}

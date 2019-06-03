@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Le Spa | Hôtel Cop, Paris</title>
+    <meta name="description" content="Bienvenue à l'Hôtel Cop ******, le sumumm du Luxe Parisien, venez découvrir notre Restaurant *** Michelin & vous détendre dans notre Spa.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/logos/ico.png" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mon-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<!-- BODY -->
+
+<body>
+
+    <!-- header avec barre de navigation -->
+    <header>
+        <nav class="navbar navbar-expand-xl  shadow fixed-top navigation">
+            <a class="navbar-brand" href="index.html"><img src="img/logos/logo.png" alt="logo Hotel Corp"
+                    class="logo-header"></a>
+            <button class="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurant.html">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="spa.html">Spa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="chambres.html" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Chambres</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="chambres.html">Voir toutes les gammes</a>
+                            <a class="dropdown-item" href="classique.html">Chambre Classique</a>
+                            <a class="dropdown-item" href="confort.html">Chambre Confort</a>
+                            <a class="dropdown-item" href="deluxe.html">Chambre Deluxe</a>
+                            <a class="dropdown-item" href="suite.html">Nos Suites</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="a-propos.html" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Autre</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="a-propos.html">Qui sommes nous</a>
+                            <a class="dropdown-item" href="acces.html">Accès</a>
+                            <a class="dropdown-item" href="contact.html">Contactez-nous</a>
+                            <a class="dropdown-item" href="evenements.html">Evénements</a>
+                            <a class="dropdown-item" href="presse.html">Presse</a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- bouton de resas renvoyant vers la page resas -->
+                <form class="form-inline my-2 my-lg-0">
+                    <a class=" btn btn-dark resas bouton-resas" href="reservations.html" role="button">Réserver</a>
+                </form>
+                <!--Fin bouton de resas renvoyant vers la page resas -->
+                <!-- bouton panier -->
+                <ul class="navbar-nav text-md-right">
+                    <li class="nav-item preNavBar">
+                        <a href="panier.html "><i class="fas fa-shopping-basket"></i></a>
+                    </li>
+                    <!-- fin bouton panier -->
+                    <!-- choix de la langue -->
+                    <li class="nav-item preNavBar"><a href="#">FR </a>|<a href="#"> EN</a>
+                    </li>
+                    <!-- fin choix de la langue -->
+                </ul>
+                <!-- bouton de recherche -->
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2 my-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <div class="input-group-append">
+                        <a href="#">
+                        <span class="loupe input-group-text bg-dark text-light"><i class="fas fa-search"></i></span>
+                        </a>
+                    </div>
+                </form>
+                <!--Fin bouton de recherche -->
+            </div>
+        </nav>
+    </header>
+    <!--Fin header avec barre de navigation -->
+
+    <main class="container-fluid">
+
+
+        <!-- carroussel -->
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/spa/spa-bed4.jpg" class="d-block w-100" alt="spa lit">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/spa/spa-bed5.jpg" class="d-block w-100" alt="spa lit double">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/spa/spa-bed6.jpg" class="d-block w-100" alt="spa confort lit">
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Fin carroussel -->
+
+        <!-- fond doré -->
+        <div class="gold">
+            <div class="row container justify-content-center intro ">
+                <div class="col">
+                    <!-- texte de presentation -->
+                    <h3>Le Spa by dior</h3>
+                    <hr class="traitIntro">
+                    <br>
+                    <p>Chaque rituel de soin est une création Haute Couture offrant une signature sensorielle et
+                        singulière, un mélange unique d’émotions rendant mémorable votre expérience. Lignes pures et
+                        matières nobles... Conçu par l’architecte d’intérieur Didier Gomez, le Spa de l'Hôtel Cop by
+                        Givenchy reflète jusque dans ses moindres détails la sophistication et la modernité de la
+                        Maison.
+                    </p>
+                    <hr class="traitFin">
+                </div>
+            </div>
+        </div>
+        <!--Fin fond doré -->
+
+        <!--section 1 -->
+        <div class="container-fluid bg-light">
+            <div class="row text-center">
+                <div class="col-xs-4 col-md-12 my-5">
+                    <h3 class="it">"Vous allez adorer"</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 my-auto">
+                    <img src="img/spa/soins1.png" alt="soins 1">
+                </div>
+                <div class="col-xs-12 col-md-4 text-center bg-white shadow my-2">
+                    <h4>Soin Détente</h4>
+                    <br>
+                    <hr class="traitFin">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark resas2 shadow" data-toggle="modal"
+                        data-target="#exampleModalLong">
+                        Fiche
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-align-center">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>Soin Détente</h3>
+                                    <hr class="traitIntro">
+                                    <p> LE SOIN NOIR RENAISSANCE INTÉGRALE </p>
+                                    <p class="it">Visage et corps - Le soin le plus précieux du Cop Spa
+                                        -120min<br>400€</p>
+                                    <hr class="traitFin">
+                                    <p>Soin Métropole " Sur Mesure " by Cop</p>
+                                    <p class="it">Visage et corps - Le luxe de la personnalisation-90min<br>300€</p>
+                                    <hr class="traitFin">
+                                    <p>Le soin Noir</p>
+                                    <p class="it">Soin visage signature-90min<br>275€</p>
+                                    <hr class="traitFin">
+                                    <p>L'intemporel</p>
+                                    <p class="it">Soin anti-âge -75min<br>250€</p>
+                                    <hr class="traitFin">
+                                    <p>Hydra - Sparkling</p>
+                                    <p class="it">Soin hydratant instense- 60min<br>200€</p>
+                                    <br>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn btn-secondary resas"
+                                            data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="traitIntro">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!-- FIN section 1 -->
+
+        <!-- section 2 -->
+        <div class="container-fluid bg-light">
+            <div class="row text-center">
+                <div class="col-xs-4 col-md-12 my-5">
+                    <h3 class="it">"Sur-mesure"</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 text-center bg-white shadow my-2">
+                    <h4>Soins Découverte</h4>
+                    <br>
+                    <hr class="traitFin">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark resas2 shadow" data-toggle="modal"
+                        data-target="#exampleModalLong2">
+                        Fiche
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-align-center">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>Soins Découverte</h3>
+                                    <hr class="traitIntro">
+                                    <p> City Skin Solution</p>
+                                    <p class="it">Soin Energiant et Protecteur-60min<br>200€</p>
+                                    <hr class="traitFin">
+                                    <p>Shine No More</p>
+                                    <p class="it">Soin pureté Intense-60min<br>200€</p>
+                                    <hr class="traitFin">
+                                    <p>Cop Men</p>
+                                    <p class="it">Soin Spécifique Hommes-60min<br>200€</p>
+                                    <br>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn btn-secondary resas"
+                                            data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="traitIntro">
+                    <br>
+                </div>
+                <div class="col-xs-12 col-md-8 my-auto">
+                    <img src="img/spa/soins4.png" alt="spa soin visage et main">
+                </div>
+            </div>
+        </div>
+        <!-- FIN section 2 -->
+
+        <!--section 3 -->
+        <div class="container-fluid bg-light">
+            <div class="row text-center">
+                <div class="col-xs-4 col-md-12 my-5">
+                    <h3 class="it">"Détendez-vous"</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 my-auto">
+                    <img src="img/spa/soins5.png" alt="spa soin corps">
+                </div>
+                <div class="col-xs-12 col-md-4 text-center bg-white shadow my-2">
+                    <h4>Soins Relaxant</h4>
+                    <br>
+                    <hr class="traitFin">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark resas2 shadow" data-toggle="modal"
+                        data-target="#exampleModalLong3">
+                        Fiche
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-align-center">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>Soins Relaxant</h3>
+                                    <hr class="traitIntro">
+                                    <p> Divine Harmonie</p>
+                                    <p class="it">Permet de lâcher prise pour un bien-être absolu-60/90min<br>200€
+                                    </p>
+                                    <hr class="traitFin">
+                                    <p>Coaching musculaire</p>
+                                    <p class="it">Prépare et Répare-60/90min<br>200€</p>
+                                    <hr class="traitFin">
+                                    <p>Energy Boost</p>
+                                    <p class="it">Dynamise et revigore pour un équilibre retrouvé-60/90min<br>200€
+                                    </p>
+                                    <hr class="traitFin">
+                                    <p>Objectif Apesanteur</p>
+                                    <p class="it">Stimule la circulation sanguine et élimine les
+                                        toxines-60min<br>200€</p>
+                                    <hr class="traitFin">
+                                    <p>La futur maman</p>
+                                    <p class="it">Cocooning et enveloppant-60min<br>200€</p>
+                                    <br>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn btn-secondary resas"
+                                            data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="traitIntro">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!--FIN section 3 -->
+
+        <!--section 4 -->
+        <div class="container-fluid bg-light">
+            <div class="row text-center">
+                <div class="col-xs-4 col-md-12 my-5">
+                    <h3 class="it">"Sur-mesure"</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 text-center bg-white shadow my-2">
+                    <h4>Soins Plaisir</h4>
+                    <br>
+                    <hr class="traitFin">
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark resas2 shadow" data-toggle="modal"
+                        data-target="#exampleModalLong4">
+                        Fiche
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-align-center">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>Soins Plaisir</h3>
+                                    <hr class="traitIntro">
+                                    <p> Parenthèse corps céleste</p>
+                                    <p class="it">Gommage, enveloppement et massage voluptueux du
+                                        corps-120min<br>380€</p>
+                                    <hr class="traitFin">
+                                    <p>Parenthèse anti Jet-Lag</p>
+                                    <p class="it">Modelage du corps et soin du visage spécial voyage-90min<br>290€
+                                    </p>
+                                    <hr class="traitFin">
+                                    <p>Parenthèse embelissement intégral</p>
+                                    <p class="it">Modelage drainant du corps et soin illuminateur du
+                                        visage-75min<br>250€</p>
+                                    <br>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn btn-secondary resas"
+                                            data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="traitIntro">
+                    <br>
+                </div>
+                <div class="col-xs-12 col-md-8 my-auto">
+                    <img src="img/spa/soins7.jpg" alt="spa soin visage">
+                </div>
+            </div>
+        </div>
+        <!--FIN section 4 -->
+
+        <!--section 5 -->
+        <div class="container-fluid bg-light">
+            <div class="row text-center">
+                <div class="col-xs-4 col-md-12 my-5">
+                    <h3 class="it">"Détendez-vous"</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 my-auto">
+                    <img src="img/spa/soins6.jpg" alt="spa visage">
+                </div>
+                <div class="col-xs-12 col-md-4 text-center bg-white shadow my-2">
+                    <h4>Soins Evasions</h4>
+                    <br>
+                    <hr class="traitFin">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark resas2 shadow" data-toggle="modal"
+                        data-target="#exampleModalLong5">
+                        Fiche
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-align-center">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>Soins Evasions</h3>
+                                    <hr class="traitIntro">
+                                    <p> Ultime Pédicure Monte-Carlo-90min</p>
+                                    <p class="it">250€</p>
+                                    <hr class="traitFin">
+                                    <p>Fresh Pédicure-75min</p>
+                                    <p class="it">190€</p>
+                                    <hr class="traitFin">
+                                    <p>Pédicure de Sebastien-60min</p>
+                                    <p class="it">160€</p>
+                                    <hr class="traitFin">
+                                    <p>Beauté de pieds"Révérence de Sebastien"-45min</p>
+                                    <p class="it">120€</p>
+                                    <hr class="traitFin">
+                                    <p>Manucure de Sebastien-45min</p>
+                                    <p class="it">115€</p>
+                                    <br>
+                                    <div class="modal-footer justify-content-center">
+                                        <button type="button" class="btn btn-secondary resas"
+                                            data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="traitIntro">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!--FIN section 5 -->
+
+
+        <!-- fond doré -->
+        <div class="gold">
+            <div class="row container justify-content-center intro mt-3">
+                <div class="col">
+                    <!-- texte de presentation -->
+                    <h3>Raffinement & Elegance</h3>
+                    <hr class="traitIntro">
+                    <br>
+                    <p>Vastes et lumineuses, les Chambres Deluxe représentent la quintessence du luxe français.
+                        Dignes des plus beaux hôtels particuliers parisiens, la décoration de leurs chambres et
+                        salons est d’une rare sophistication et chaque pièce bénéficie d’une entrée séparée. Un soin
+                        spécifique a été apporté à leurs grands dressings et aux salles de bains en marbre de
+                        Carrare.
+                    </p>
+                    <hr class="traitFin">
+                </div>
+            </div>
+        </div>
+        <!--Fin fond doré -->
+
+        <div class="container-fluid px-0">
+            <img src="img/spa/spa-massage2.jpg" alt="femme spa">
+        </div>
+
+
+        <!-- Footer -->
+        <div class="black">
+            <footer class="page-footer font-small stylish-color-dark pt-4">
+
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="#">
+                                <img src="img/logos/logo.png" alt="logo Hotel Corp" class="logo-footer mt-4">
+                            </a>
+                        </div>
+                        <div class="col-md-4 mx-auto">
+                            <!--Adresse Hôtel-->
+                            <h5 class="mt-3 mb-4">Hôtel Cop Paris</h5>
+                            <p class="p2">1 Avenue Montaigne<br>75008 Paris France <br>Tél: 01 24 35 67 89</p>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none">
+                        <div class="col-md-2 mx-auto">
+
+                            <!-- Link Hôtel -->
+                            <h5 class="mt-3 mb-4">L'hôtel</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="a-propos.html">Qui sommes nous</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contactez-nous</a>
+                                </li>
+                                <li>
+                                    <a href="acces.html">Accès</a>
+                                </li>
+                                <li>
+                                    <a href="avis.html">Avis</a>
+                                </li>
+                            </ul>
+                            <!--Fin Link Hôtel -->
+                        </div>
+
+                        <hr class="clearfix w-100 d-md-none">
+                        <div class="col-md-2 mx-auto">
+
+                            <!-- Liens Presse -->
+                            <h5 class="mt-3 mb-4">Presse</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="actualites.html">Actualités</a>
+                                </li>
+                                <li>
+                                    <a href="evenements.html">Evénements</a>
+                                </li>
+                                <li>
+                                    <a href="presse.html">Presse</a>
+                                </li>
+                            </ul>
+                            <!--Fin Liens Presse -->
+                        </div>
+
+
+                        <div class="col-md-2 mx-auto">
+
+                            <!-- Liens Divers -->
+                            <h5 class="mt-3 mb-4">Liens divers</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="mentions-legales.html">Mentions légales</a>
+                                </li>
+                                <li>
+                                    <a href="cgv.html">CGV</a>
+                                </li>
+                                <li>
+                                    <a href="plan-du-site.html">Plan du site</a>
+                                </li>
+                                <li>
+                                    <a href="recrutement.html">Carrière</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="print"><i class="fas fa-print"></i></a>
+                                </li>
+                            </ul>
+                            <!--Fin Liens Divers -->
+                        </div>
+                    </div>
+                </div>
+                <!--Fin Footer Links -->
+
+                <!--Newsletter Bouton-->
+                <hr class="traitFooter">
+                <div class="row">
+                    <div class="col-3 mx-auto">
+                        <form method="GET">
+                            <div class="form-group">
+                                <div class="row">
+                                    <label for="emailNewsLetter" class="text-center" style="width: 100%;">S'inscrire
+                                        à la Newsletter</label>
+                                    <input type="email" class="col-md-9 text-center bg-light" id="emailNewsLetter"
+                                        placeholder="Votre Email*" required>
+                                    <input type="submit" id="submitNews" class="col-md-3 btn btn-dark resas">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--Fin Newsletter Bouton-->
+
+                <hr>
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-fb mx-1">
+                            <i class="facebook"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-tw mx-1">
+                            <i class="twitter"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-gplus mx-1">
+                            <i class="instagram"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-li mx-1">
+                            <i class="youtube"> </i>
+                        </a>
+                    </li>
+                </ul>
+                <!--Fin Social buttons -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2019 Copyright : Max & Nag
+                </div>
+                <!-- Copyright -->
+                <!--  -->
+                <div class="footer-copyright faux text-center py-3">Ce site n'a aucun but commercial, il est réalisé
+                    dans le cadre d'un atelier pédagogique d'intégration web au sein de l'organisme de formation
+                    IFOCOP.
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!--Fin Footer -->
+        </div>
+    </main>
+    <!--Fin MAIN -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mon-js.js"></script>
+
+
+</body>
+<!--Fin BODY -->
+
+</html>
